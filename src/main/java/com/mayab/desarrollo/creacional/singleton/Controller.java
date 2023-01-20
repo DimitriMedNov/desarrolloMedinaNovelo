@@ -1,7 +1,6 @@
 package com.mayab.desarrollo.creacional.singleton;
 
 public class Controller {
-
     public static void main( String[] args )
     {
         //Instancie los objetos de las clases Reportes A/B
@@ -12,5 +11,4 @@ public class Controller {
         ReporteA.print();
         ReporteB.print();
     }
-
 }

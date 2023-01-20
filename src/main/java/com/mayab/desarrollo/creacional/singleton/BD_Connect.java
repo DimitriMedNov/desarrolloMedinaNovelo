@@ -16,5 +16,4 @@ public class BD_Connect {
     public void getConnection(){
         System.out.println("Ya se conecto\n");
     }
-
 }

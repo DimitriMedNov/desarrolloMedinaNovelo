@@ -1,12 +1,11 @@
 package com.mayab.desarrollo.creacional.singleton;
 
 public class Reporte_A {
-
     //Lamo a la base de datos
     BD_Connect conexion = BD_Connect.getInstance();
 
     //Declaro tipo de atributo
-    private String info;
+    private final String info;
 
     //Creo contructor
     public Reporte_A(String info){
