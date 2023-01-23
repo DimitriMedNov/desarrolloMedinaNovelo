@@ -12,7 +12,7 @@ public class BD_Connect {
     }
     //Singleton end
 
-    //Metodo para tener la conecxion
+    //Metodo para tener la conecxion a la base de datos
     public void getConnection(){
         System.out.println("Ya se conecto\n");
     }

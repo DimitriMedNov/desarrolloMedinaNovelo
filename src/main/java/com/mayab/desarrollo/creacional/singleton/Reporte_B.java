@@ -5,7 +5,7 @@ public class Reporte_B {
     BD_Connect conexion = BD_Connect.getInstance();
 
     //Declaro tipo de atributo
-    private final String info;
+    private String info;
 
     //Creo contructor
     public Reporte_B(String info){
