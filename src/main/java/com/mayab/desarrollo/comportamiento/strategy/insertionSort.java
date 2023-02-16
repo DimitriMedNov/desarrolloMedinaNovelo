@@ -1,5 +1,9 @@
 package com.mayab.desarrollo.comportamiento.strategy;
-
-public class insertionSort {
-    //comportamiento
+import java.util.Arrays;
+public class insertionSort implements Sort_Bahavior {
+    @Override
+    public void sort(int[] arr){
+        Arrays.sort(arr);
+        System.out.println("Ordenamiento Insertion");
+    }
 }
