@@ -6,7 +6,7 @@ public class quickSort implements Sort_Bahavior{
     @Override
     public void sort(int[] arr){
         Arrays.sort(arr);
-        System.out.println("Ordenamiento QuickSort");
+        System.out.println("Ordenamiento de QuickSort");
     }
 
 
