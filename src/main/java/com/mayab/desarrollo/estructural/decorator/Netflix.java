@@ -1,14 +1,15 @@
 package com.mayab.desarrollo.estructural.decorator;
 
-public class Prime extends ReciboDecorator{
+
+public class Netflix extends ReciboDecorator {
     Recibo recibobase;
 
-    public Prime(Recibo recibobase) {
+    public Netflix(Recibo recibobase) {
         this.recibobase =recibobase;
     }
 
     public String getDescription() {
-        return "Prime";
+        return "Netflix";
     }
 
     public double cost() {

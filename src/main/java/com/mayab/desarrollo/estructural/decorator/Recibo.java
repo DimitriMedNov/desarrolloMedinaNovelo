@@ -1,4 +1,7 @@
 package com.mayab.desarrollo.estructural.decorator;
 
-public class Recibo {
+public abstract class Recibo {
+    public abstract String getDescription();
+
+    public abstract double cost();
 }
