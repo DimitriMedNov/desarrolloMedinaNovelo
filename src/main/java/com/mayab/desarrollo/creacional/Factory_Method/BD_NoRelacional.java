@@ -8,12 +8,12 @@ public class BD_NoRelacional extends BD_create {
     public BD_Connect createBD(String tipoBD) {
         BD_Connect DataBase = null;
 
-        if(tipoBD == "MONOGODB"){
+        if(tipoBD == "mongo db"){
             DataBase = new MonogoDB();
-        }else if(tipoBD == "COUCHDB"){
+        }else if(tipoBD == "couch db"){
             DataBase = new CouchDB();
         }else{
-            System.out.println("Base de Datos relacional");
+            System.out.println("BD relacional");
         }
         return DataBase;
     }

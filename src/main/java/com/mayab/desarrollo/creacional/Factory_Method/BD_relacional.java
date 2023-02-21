@@ -14,7 +14,7 @@ public class BD_relacional extends BD_create{
         } else if (tipoBD == "mysql") {
             DataBase = new MySQL();
         } else{
-            System.out.println("Base de Datos no relacional");
+            System.out.println("BD no relacional");
         }
         return DataBase;
     }

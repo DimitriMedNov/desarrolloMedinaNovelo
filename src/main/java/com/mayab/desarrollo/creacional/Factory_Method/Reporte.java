@@ -12,4 +12,5 @@ public class Reporte {
     public void verReporte(){
         manejador.consultarReporte(nombre);
     }
+
 }
