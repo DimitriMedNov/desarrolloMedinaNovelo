@@ -1,7 +1,6 @@
 package com.mayab.desarrollo.creacional.singleton;
 
 public class BD_Connect {
-    //Singleton start //Nunca cambia
     private static BD_Connect instance = new BD_Connect();
     private BD_Connect(){  }
     public static BD_Connect getInstance(){
@@ -10,10 +9,7 @@ public class BD_Connect {
         }
         return BD_Connect.instance;
     }
-    //Singleton end
-
-    //Metodo para tener la conecxion a la base de datos
     public void getConnection(){
-        System.out.println("Ya se conecto\n");
+        System.out.println("Conectado\n");
     }
 }
